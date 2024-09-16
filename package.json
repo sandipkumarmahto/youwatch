@@ -1,0 +1,15 @@
+{
+  "name": "youwatch",
+  "version": "1.0.0",
+  "description": "a project like youtube in node js backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youwatch",
+    "js"
+  ],
+  "author": "sandip kumar mahto",
+  "license": "ISC"
+}
