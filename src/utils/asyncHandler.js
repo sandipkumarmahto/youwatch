@@ -7,7 +7,8 @@ const asyncHander = (requestHandler) =>{
     }
 }
 
-export {asyncHandler}
+export {asyncHander} 
+
 
 // const asyncHandler = (fn) => async(req,res,next) => {
 //     try {

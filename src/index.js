@@ -15,6 +15,25 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 
+//routes import
+
+import userRouter from './routes/user.routes.js'
+
+
+//rotues declaration
+app.use("/api.v1/users",userRoutes)
+
+
+
+
+
+
+
+
+
+
+
+
 connectDB()
 .then(() =>{
     app.listen(process.env.PORT || 5000,() =>{
